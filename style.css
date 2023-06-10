@@ -36,6 +36,7 @@ textarea::placeholder {
 
 .hero-text {
     padding-left: 2vw;
+    margin-top: 3vh;
     margin-left: 5vw;
     border-left: 6px solid #ff4655;
 }
