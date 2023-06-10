@@ -142,6 +142,10 @@ textarea::placeholder {
     font-size: 3.5rem;
 }
 
+.custom-fs-xl {
+    font-size: 4.5rem;
+}
+
 .color-mainred {
     color: #ff4655
 }
