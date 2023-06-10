@@ -20,7 +20,7 @@
         <!-- #region Navbar Region -->
         <section class="row">
             <div class="col-12 py-3 ps-5 navbar align-items-center justify-content-start text-white">
-                <i class="fs-1 mdi mdi-waves"></i>
+                <i class="fs-1 mdi mdi-alpha-l-circle-outline"></i>
                 <h1 class="ms-2 m-0">LOREMRANT</h1>
             </div>
         </section>
@@ -30,7 +30,7 @@
     <main class="container-fluid">
         <!-- #region Hero Section -->
         <section class="row px-3 py-5 p-md-5 position-relative text-white align-items-start">
-            <video autoplay loop muted class="hero-video"
+            <video autoplay loop muted class="hero-video" id="herovideo"
                 poster="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
                 src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt778f65cedfee54fd/63bcad5b08dfb21202a7794d/VAL_Ep6_Homepage-CG-Video_V5.mp4">
             </video>
@@ -84,20 +84,20 @@
             <div class="col-12 order-0 order-md-1 col-md-6 position-relative d-flex justify-content-center">
                 <div class="card shadow py-2 px-4 contact-box">
                     <p class="fs-4 custom-fw-500 py-2"><i class="mdi fs-2 color-darkred mdi-wrench pe-2"></i>
-                        Lorem ipsum dolor sit amet consectetur.
+                        Need game support? Email person@company.com
                     </p>
-                    <p class="fs-4 custom-fw-500 py-2"><i class="mdi fs-2 color-darkred mdi-car pe-2"></i>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    <p class="fs-4 custom-fw-500 py-2"><i class="mdi fs-2 color-darkred mdi-keyboard pe-2"></i>
+                        Come play the game and make friends!
                     </p>
                     <p class="fs-4 custom-fw-500 py-2"><i class="mdi fs-2 color-darkred mdi-phone-incoming pe-2"></i>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt.
+                        Call us at 123-456-7890!
                     </p>
                     <p class="fs-4 custom-fw-500 py-2"><i class="mdi fs-2 color-darkred mdi-thought-bubble pe-2"></i>
-                        Lorem ipsum dolor sit amet.
+                        Share your thoughts with us!
                     </p>
                     <p class="fs-4 custom-fw-500 py-2"><i
                             class="mdi fs-2 color-darkred mdi-lightning-bolt-circle pe-2"></i>
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                        Always kept up to date with the latest software
                     </p>
                 </div>
             </div>
@@ -107,10 +107,14 @@
 
         <!-- #region Overview Section -->
         <section class="row p-1 ps-md-5 pe-md-3 light-bg">
-            <div class="col-12 col-md-5 mt-5 py-3">
-                <img class="overview-img w-100 img-fluid rounded"
+            <div class="col-12 col-md-5 mt-5 pt-3">
+                <!-- <img class="overview-img w-100 img-fluid rounded"
                     src="https://images.unsplash.com/photo-1558742619-fd82741daa99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXNwb3J0cyUyMGV2ZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-                    alt="Person playing on computer">
+                    alt="Person playing on computer"> -->
+                <video autoplay loop muted class="rounded overview-img shadow"
+                    src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltefd45731d8f9d9df/6217f2ea910a6c613c73168c/VALORANT_PLAY22_16x9_Target4_v005.mp4"
+                    poster="https://images.unsplash.com/photo-1558742619-fd82741daa99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXNwb3J0cyUyMGV2ZW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+                </video>
             </div>
             <div class="col-12 col-md-7 px-4 px-md-5">
                 <div class="overview-text">
@@ -134,7 +138,7 @@
         <!-- #region Customer Reviews Section -->
         <section class="row darkenedlight-bg align-items-center px-3 py-5 p-md-5">
             <div class="col-12 col-md-4 mb-3 mb-md-0 order-1 order-md-0">
-                <div class="card py-3 px-4 custom-fs-med rounded-0 text-center">
+                <div class="review-animation card shadow py-3 px-4 fs-4 rounded-0 text-center">
                     <i class="mdi mdi-format-quote-open mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Accusamus minima sed quis ab quo esse recusandae, nulla unde!</i>
                     <p>Lorem, ipsum.</p>
@@ -142,11 +146,13 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 mb-3 mb-md-0 order-0 order-md-1">
-                <div class="card py-3 px-4 rounded-0 text-center">
-                    <div class="custom-fs-lg color-darkred">
-                        <i class="mdi mdi-star-circle"></i>
-                        <i class="mdi mdi-star-circle"></i>
-                        <i class="mdi mdi-star-circle"></i>
+                <div class="review-animation card shadow py-3 px-4 rounded-0 text-center">
+                    <div class="d-flex justify-content-center align-items-center custom-fs-lg color-darkred">
+                        <i class="fs-2 mdi mdi-star-circle"></i>
+                        <i class="mdi mx-2 mdi-star-circle"></i>
+                        <i class="mdi mx-2 mdi-star-circle"></i>
+                        <i class="mdi mx-2 mdi-star-circle"></i>
+                        <i class="fs-2 mdi mdi-star-circle"></i>
                     </div>
                     <div class="fs-4">
                         <i class="mdi mdi-format-quote-open">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -158,7 +164,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 mb-3 mb-md-0 order-2">
-                <div class="card py-3 px-4 fs-4 rounded-0 text-center">
+                <div class="review-animation card shadow py-3 px-4 fs-4 rounded-0 text-center">
                     <i class="mdi mdi-format-quote-open mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quod
                         nostrum nesciunt eaque amet voluptate eum vel accusamus minima?</i>
@@ -185,8 +191,11 @@
         <!-- #region Footer Section -->
         <section class="row darkenedlight-bg px-2 py-4">
             <div class="col-12 fs-5 text-center color-dark">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat ipsum inventore cumque
-                    ab quaerat recusandae nobis magni fugiat excepturi.</p>
+                <p>Fictional product and website! Recreated with inspiration from playvalorant.com for an educational
+                    project.</p>
+            </div>
+            <div class="col-12 text-center">
+                <a href="#herovideo" class="btn-scroll custom-fw-500">Scroll to Top</a>
             </div>
         </section>
         <!-- #endregion -->
