@@ -61,6 +61,7 @@ textarea::placeholder {
 
 .contact-box {
     position: absolute;
+    top: 15%;
 }
 
 .review-animation {
